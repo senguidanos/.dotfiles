@@ -1,8 +1,13 @@
 set binary
 set noeol
 set nocompatible
+
 execute pathogen#infect()
-syntax on
+
+syntax enable
+set background=dark
+colorscheme solarized
+
 filetype plugin indent on
 set shiftwidth=2
 set softtabstop=2
@@ -10,7 +15,6 @@ set expandtab
 set autoindent
 set number
 
-colorscheme vividchalk
 
 noremap \ff :CtrlP<CR>
 noremap \nt :NERDTree<CR>
