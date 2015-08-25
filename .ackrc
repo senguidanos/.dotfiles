@@ -1,0 +1,12 @@
+# case sensitive unless mixed case
+--smart-case
+
+# follow symlinks
+--follow
+
+# ignores
+
+--ignore-dir=vendor/bundle
+--ignore-dir=vendor/gems
+--ignore-dir=tmp
+--ignore-dir=log
