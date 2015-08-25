@@ -10,3 +10,4 @@
 --ignore-dir=vendor/gems
 --ignore-dir=tmp
 --ignore-dir=log
+--ignore-file=match:tags
